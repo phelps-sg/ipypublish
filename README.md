@@ -5,8 +5,8 @@ from one or more Jupyter Notebooks.
 
 **Documentation**: [ipypublish.readthedocs.io](http://ipypublish.readthedocs.io)
 
-[![CI Build](https://travis-ci.org/chrisjsewell/ipypublish.svg?branch=master)](https://travis-ci.org/chrisjsewell/ipypublish)
-[![Coverage](https://coveralls.io/repos/github/chrisjsewell/ipypublish/badge.svg?branch=master)](https://coveralls.io/github/chrisjsewell/ipypublish?branch=master)
+[![CI Status](https://github.com/chrisjsewell/ipypublish/workflows/continuous-integration/badge.svg)](https://github.com/chrisjsewell/ipypublish/actions)
+[![Coverage Status](https://codecov.io/gh/chrisjsewell/ipypublish/branch/develop/graph/badge.svg)](https://codecov.io/gh/chrisjsewell/ipypublish)
 [![PyPI](https://img.shields.io/pypi/v/ipypublish.svg)](https://pypi.python.org/pypi/ipypublish/)
 [![DOI](https://zenodo.org/badge/96322423.svg)](https://zenodo.org/badge/latestdoi/96322423)
 [![Conda](https://anaconda.org/conda-forge/ipypublish/badges/version.svg)](https://anaconda.org/conda-forge/ipypublish)
@@ -14,9 +14,7 @@ from one or more Jupyter Notebooks.
 <!-- [![Codacy Badge](https://api.codacy.com/project/badge/Grade/243d0038a2f543e7a9c47a781ca3cbf5)](https://www.codacy.com/app/chrisj_sewell/ipypublish?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=chrisjsewell/ipypublish&amp;utm_campaign=Badge_Grade) -->
 
 >**Attention**:
-A major API improvement occurred in `v0.7.0`. This has not changed the
-general user interface, but anyone using custom converter plugins will
-be required to update them (see [Plugin Conversion](https://ipypublish.readthedocs.io/en/latest/custom_export_config.html#conversion-of-plugins-from-old-api))
+This package is still maintained, but it is envisaged that it will eventually be superceeded by the [Executable Book Project toolchain](https://executablebooks.org/en/latest/tools.html). So definitely also check that out, and feedback any improvement suggestions! 😀
 
 ![Conversion Process](/docs/source/_static/main_image.png)
 
